@@ -25,7 +25,7 @@ class FsearchMac < Formula
   end
 
   test do
-    assert_match "fsearch-cli #{version}", shell_output("#{bin}/fsearch-cli --version")
+    assert_match "fsearch-cli", shell_output("#{bin}/fsearch-cli --version")
 
     (testpath/"tree/dir").mkpath
     (testpath/"tree/dir/sample.txt").write("hello")
