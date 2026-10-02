@@ -2,8 +2,8 @@ class FsearchMac < Formula
   desc "FSearch fork for macOS: FSEvents live monitoring + headless fsearch-cli"
   homepage "https://github.com/NomaDamas/fsearch-mac"
   url "https://github.com/NomaDamas/fsearch-mac/archive/refs/tags/0.3-mac1.tar.gz"
-  sha256 "cf30d6071e166fa8ef5201fe780c9720309cb376f9286051e6bcf38ed88fc35c"
   version "0.3-mac1"
+  sha256 "cf30d6071e166fa8ef5201fe780c9720309cb376f9286051e6bcf38ed88fc35c"
   license "GPL-2.0-or-later"
 
   depends_on "gettext" => :build
